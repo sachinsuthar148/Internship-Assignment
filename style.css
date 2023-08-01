@@ -1,0 +1,129 @@
+        *{
+            margin:0;
+            padding:0;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'REM', sans-serif;
+            box-sizing: border-box;
+        }
+        header::before{
+            content: "";
+            background: url('image/background3.jpg') no-repeat center center/cover;
+            position: absolute;
+            filter: blur(5px);
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top:0;
+            left:0;
+            /* opacity: 0.7; */
+            
+        }
+        .navbar ul{
+            display: flex;
+            justify-content: center;
+          
+        }
+        .navbar ul li
+        {
+            list-style: none;
+            margin: 12px 6px;
+            padding: 7px 6px;
+        }
+        
+        .navbar ul li a{
+            text-decoration: none;
+            color:white;
+
+        }
+        .navbar ul li a:hover{
+            color: rgb(192, 192, 72);
+        }
+
+        .webhead
+        {
+            color: black;
+            font-weight: bold;
+            border: 5px solid cornflowerblue;
+            background: white;
+            width: 400px;
+            padding: 11px;
+            border-radius: 39px;
+            box-shadow: white 4px 4px 15px;
+        }
+        #service{
+            width: 600px;
+        }
+        .box1
+        {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 23px 0px 4px;
+           
+        }
+        .subbox1
+        {
+            width:50%;
+            height: 400px;
+            /* border: 1px solid white; */
+        }
+        #webimg{
+            width:400px;
+            height: 400px;
+            /* border-radius: 50%; */
+            border: 5px solid white;
+            box-shadow: white 4px 4px 15px;
+            margin: 30px 0px 0px 0px;
+        }
+        #subbox1 p{
+            color: white;
+            font-size: 30px;
+            padding: 50px 175px 70px 20px;
+            margin-top: 2px;
+        }
+        
+
+
+        /* code for services page  */
+        .serbox
+        {
+            width: 80%;
+            margin: 30px auto;
+            height: 400px;
+        
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .subser
+        {
+            height: 200px;
+            width: 360px;
+            border: 3px solid white;
+            margin: 20px;
+            /* color: white; */
+            text-align: center;
+            padding: 10px;
+            border-radius: 26px;
+            box-shadow: white 9px 9px 15px;
+            background: white;
+        }
+        .subser:hover{
+            box-shadow: white 4px 4px 15px;
+        }
+        #firstimg{
+            height: 93px;
+            width: 114px;
+
+        }
+
+        /* aboutus page css  */
+        .aboutbox{
+            color:white;
+            margin:10px 40px 10px;
+        }
+        #question{
+            margin-top: 20px;
+        }
+        #answer{
+            margin: 5px 60px 0px 30px ;
+        }
